@@ -13,7 +13,7 @@ public class NumberGuesserGame {
 
         while (playAgain) {
 
-            int randomNumber = random.nextInt(100) + 1; // 1–100
+            int randomNumber = random.nextInt(100) + 1; 
             int attempts = 0;
             int maxAttempts = 5;
             boolean guessedCorrectly = false;
@@ -28,7 +28,7 @@ public class NumberGuesserGame {
 
                 if (!scanner.hasNextInt()) {
                     System.out.println("Invalid input. Please enter a number.");
-                    scanner.next(); // clear invalid input
+                    scanner.next(); 
                     continue;
                 }
 
@@ -56,7 +56,6 @@ public class NumberGuesserGame {
                 System.out.println("Game Over! The correct number was: " + randomNumber);
             }
 
-            // Play again validation
             while (true) {
                 System.out.print("Do you want to play again? (yes/no): ");
                 String response = scanner.next();
