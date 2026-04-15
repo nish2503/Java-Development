@@ -19,28 +19,6 @@ public class Game {
         random = new Random();
         setupGame();
     }
-
-//    private void setupGame() {
-//
-//        board = new Board();
-//
-//        System.out.println("Play with:");
-//        System.out.println("1. Human");
-//        System.out.println("2. Computer");
-//
-//        int choice = scanner.nextInt();
-//        vsComputer = (choice == 2);
-//
-//        System.out.print("Choose your symbol (X/O): ");
-//        char symbol = scanner.next().toUpperCase().charAt(0);
-//
-//        char otherSymbol = (symbol == 'X') ? 'O' : 'X';
-//
-//        player1 = new Player(symbol);
-//        player2 = new Player(otherSymbol);
-//
-//        currentPlayer = player1;
-//    }
     
     private void setupGame() {
 
