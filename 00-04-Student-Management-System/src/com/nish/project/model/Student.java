@@ -1,47 +1,48 @@
 package com.nish.project.model;
 
 public class Student {
-	private int id;
-	private String name;
-	private int age;
-	private String branch;
-	
-	public Student (int id, String name, int age, String branch) {
-		this.id = id;
-		this.name = name;
-		this.age = age;
-		this.branch = branch;
-	}
 
-	public int getId() {
-		return id;
-	}
+    private int id;
+    private String name;
+    private int age;
+    private int branchId;
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    public Student(int id, String name, int age, int branchId) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.branchId = branchId;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public int getId() {
+        return id;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public int getAge() {
-		return age;
-	}
+    public int getAge() {
+        return age;
+    }
 
-	public void setAge(int age) {
-		this.age = age;
-	}
+    public int getBranchId() {
+        return branchId;
+    }
 
-	public String getBranch() {
-		return branch;
-	}
+    public void setId(int id) {
+        this.id = id;
+    }
 
-	public void setBranch(String branch) {
-		this.branch = branch;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setBranchId(int branchId) {
+        this.branchId = branchId;
+    }
 }
