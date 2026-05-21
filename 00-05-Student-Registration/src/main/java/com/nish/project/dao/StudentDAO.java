@@ -43,8 +43,7 @@ public class StudentDAO {
 	            throw new RuntimeException("Student with this phone number already exists.");
 	        }
 
-	        throw new RuntimeException(
-	                "Duplicate student data found.");
+	        throw new RuntimeException("Duplicate student data found.");
 
 	    } catch (Exception exception) {
 
